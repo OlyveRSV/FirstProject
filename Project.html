@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ProjectStyle.css">
+    <title>Login</title>
+</head>
+<body>
+    <img class="img" src="Coding.svg" alt="Imagem de Coding" />
+    <div class="card" id="login-card">
+        <h2 id="title">Login</h2>
+        <div id="form-content">
+            <div class="input-container">
+                <input class="input" type="email" id="email" placeholder=" " required />
+                <label for="email" class="input-label">E-mail</label>
+            </div>
+            <div class="input-container">
+                <input class="input" type="password" id="password" placeholder=" " required />
+                <label for="password" class="input-label">Senha</label>
+            </div>
+            <button class="button" onclick="login()">Entrar</button>
+            <span class="link" onclick="showRecovery()">Esqueceu sua senha?</span>
+            <span class="link" onclick="showRegister()">Criar uma conta</span>
+        </div>
+    </div>
+    <script src="ProjectJS.js"></script>
+</body>
+</html>
